@@ -16,19 +16,19 @@
 // #define BRIDGE_0_INVERTED
 
 /*! DEBUG Settings */
-// #define ENABLE_DEBUG
-// #define DEBUG_PORT Serial
-// #define DEBUG_BAUD 115200
+#define ENABLE_DEBUG
+#define DEBUG_PORT Serial
+#define DEBUG_BAUD 115200
 
 /*! ===== Communication Settings ===== */
-// #define ENABLE_SERIAL
+#define ENABLE_SERIAL
 #define SERIAL_COM Serial1
-#define SERIAL_BAUD 9600
+#define SERIAL_BAUD 57200
 
 // #define ENABLE_I2C
 #define I2C_ADDR 0x31
 
-#define BUFFER_SIZE 384
+#define BUFFER_SIZE 600
 #define PACKET_SIZE 32
 
 /*! ===== LED Settings ===== */
